@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swag of India</title> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-view.css">
+    <script src="https://kit.fontawesome.com/1e12335d3c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <header id="main-header"></header>
+    <main>
+        <nav aria-label="breadcrumb" class="small-navbar">
+            <ol class="breadcrumb itemlist">
+             <li class="breadcrumb-item">Home</li>
+             <li class="breadcrumb-item">Appliances</li>
+             <li class="breadcrumb-item fansitem">Fans</li>
+            </ol>
+        </nav>   
+        
+        
+        <section class="productview-part">
+            <div class="product-3-small-div">
+               <img src="./images/product3.png" alt="" height="50px" width="50px">
+               <img src="./images/product3.png" alt="" height="50px" width="50px">
+               <img src="./images/product3.png" alt="" height="50px" width="50px">
+               <img src="./images/product3.png" alt="" height="50px" width="50px">
+            </div>
+             <img class="product-3-image" src="./images/product3.png" alt="" height="450px " width="450px">
+             <div class="product-3-details">
+                <h4 class="product-heading">Classic Chinos Pants</h4>
+                <div class="stars">
+                    <span>
+                    <i class="gold fa fa-star checked"></i>
+                    <i class="gold fa fa-star checked"></i>
+                    <i class="gold fa fa-star checked"></i>
+                    <i class="gold fa fa-star-o"></i>
+                    <i class="gold fa fa-star-o"></i>
+                </span>
+                <span class="rating-viewed">39,122 ratings  |  1000+ answered questions</span><br>
+                <div class="about-price-discount">
+                    <span class="price-after-discount">Rs 1099.0 <del class="price-before-discount">Rs 2748.0</del></span><span class="total-discount">(60%off)</span>
+                </div>
+               </div>
+               <dl class="product-description">
+                <dt>Short Descripton</dt>
+                <dd>Black and grey ckecked casual shirt,has a spread collar,long roll-up sleeves,button packet
+                    curved hem and 1 patch pocket.Black and gery checked casual shirt,has a spread collar,
+                    long roll-up sleeves,button packet,curved hem, and 1 patch packet
+                    
+                </dd>
+               </dl>
+
+               <div class="size-quantity-div">
+                <div>
+                    <h6 class="select-size-heading">SELECT SIZE</h6>
+                    <div style="margin-top:20px;">
+                    <span class="product-size">39</span>
+                    <span class="product-size">40</span>
+                    <span class="product-size">42</span>
+                    <span class="product-size">44</span>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h6 class="qty-heading">QTY</h6>
+                    <div style="margin-right:20px ;">
+                        <button class="decrease-button" onclick="decrementcounter()">-</button><button class="value-button"><span id="count"></span></button><button class="increase-button" onclick="incrementcounter()">+</button>
+                    </div>
+                   
+                </div>
+               </div>
+
+               <div style="margin-top:40px ;">
+                <button class="add-to-cart">ADD TO CART</button>
+                <button class="buy-now">BUY NOW</button>
+                <img src="./images/wishlist.png" alt="" height="70px" style="margin-left:10px;">
+               </div>
+
+               <div class="share-with-social-media">
+                <h6 class="share-this">SHARE THIS</h6>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+               </div>
+
+               <div class="delivery-return-online-support">
+                <div>
+                    <i class="fa-solid fa-truck truck"></i><b>DELIVERY & RETURN</b>
+                </div>
+                <div style="margin-left:20px ;">
+                    <i class="fa-solid fa-headset headset"></i><b>ONLINE SUPPORT 24x7</b>
+                </div>
+                  
+               </div>
+             </div>
+        </section>
+        <!-- =====Description Part======= -->
+
+        
+        <section class="description-part">
+            <hr>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab click-button" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab click-button" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sizing Guide</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab click-button" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Assigned Tags</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-custom-tab click-button" data-bs-toggle="pill" data-bs-target="#pills-custom" type="button" role="tab" aria-controls="pills-custom" aria-selected="false">Many Custom Tabs</button>
+                  </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active paragraph" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <b>Give you a complete account of the system</b>
+                <p style="margin-top:20px ;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis nulla rerum et excepturi expedita, debitis iusto odio consectetur, in ut nisi ipsa, sint magni officiis praesentium distinctio hic odit?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium magni dolores libero inventore ratione aliquam impedit quod, harum eos sunt pariatur soluta nobis dicta blanditiis dolore voluptatum fuga. Sint.
+                </p>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi voluptatum corrupti quos quia, a iusto cupiditate laudantium odit officia. Blanditiis amet iste aut, quasi omnis quo obcaecati eaque accusamus.
+                </p>
+                
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                    <b>Give you a complete account of the system</b>
+                    <p style="margin-top:20px ;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis nulla rerum et excepturi expedita, debitis iusto odio consectetur, in ut nisi ipsa, sint magni officiis praesentium distinctio hic odit?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium magni dolores libero inventore ratione aliquam impedit quod, harum eos sunt pariatur soluta nobis dicta blanditiis dolore voluptatum fuga. Sint.
+                    </p>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                    </p>
+    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                    </p>
+
+
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+                    <b>Give you a complete account of the system</b>
+                    <p style="margin-top:20px ;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis nulla rerum et excepturi expedita, debitis iusto odio consectetur, in ut nisi ipsa, sint magni officiis praesentium distinctio hic odit?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium magni dolores libero inventore ratione aliquam impedit quod, harum eos sunt pariatur soluta nobis dicta blanditiis dolore voluptatum fuga. Sint.
+                    </p>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                    </p>
+    
+                </div>
+                <div class="tab-pane fade" id="pills-custom" role="tabpanel" aria-labelledby="pills-custom-tab" tabindex="0">
+
+                    <b>Give you a complete account of the system</b>
+                    <p style="margin-top:20px ;">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis nulla rerum et excepturi expedita, debitis iusto odio consectetur, in ut nisi ipsa, sint magni officiis praesentium distinctio hic odit?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laudantium magni dolores libero inventore ratione aliquam impedit quod, harum eos sunt pariatur soluta nobis dicta blanditiis dolore voluptatum fuga. Sint.
+                    </p>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                    </p>
+    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates et repellendus tempora minima dolor aspernatur quo, veritatis hic harum vitae, sequi ea esse quidem, quibusdam dolores sit iure delectus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde officiis facere eaque id vitae, architecto provident quae laborum aliquid aliquam, labore placeat velit fuga molestiae inventore autem obcaecati. Repellendus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse placeat debitis facere, laborum pariatur officia. Architecto, veniam repellendus placeat quaerat officia aliquam illo voluptatibus dolor vitae? Ipsa, cumque labore?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi voluptatum corrupti quos quia, a iusto cupiditate laudantium odit officia. Blanditiis amet iste aut, quasi omnis quo obcaecati eaque accusamus.
+                    </p>
+
+                </div>
+              </div>
+                <hr>
+        </section>
+
+
+        <section class="related-product-part">
+            <hr>
+            <h1 class="heading-of-related-products">RELATED PRODUCTS</h1>
+
+            <div class="related-product-card">
+
+            <section class="card-view-page">
+                    <img src="./images/product2.png" height="200px" width="200px">
+                <div class="three-icon">
+                    <img src="./images/cart.png" class="cart1">
+                    <img src="./images/view.png"  class="cart2">
+                    <img src="./images/wishlist.png"  class="cart3">
+                </div>
+               <div class="card-product-details">
+                <div class="ratings-view">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3><a href="">Amazing Product</a></h3>
+                <span class="price-after-discount">RS 1222.0</span><del class="price-before-discount">RS 2000.0</del><span class="total-discount">(40% Off)</span>
+               </div>
+            </section>
+
+            <section class="card-view-page">
+                    <img src="./images/product2.png" height="200px" width="200px">
+                <div class="three-icon">
+                    <img src="./images/cart.png" class="cart1">
+                    <img src="./images/view.png"  class="cart2">
+                    <img src="./images/wishlist.png"  class="cart3">
+                </div>
+               <div class="card-product-details">
+                <div class="ratings-view">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3><a href="">Amazing Product</a></h3>
+                <span class="price-after-discount">RS 1222.0</span><del class="price-before-discount">RS 2000.0</del><span class="total-discount">(40% Off)</span>
+               </div>
+            </section>
+
+            <section class="card-view-page">
+                    <img src="./images/product2.png" height="200px" width="200px">
+                <div class="three-icon">
+                    <img src="./images/cart.png" class="cart1">
+                    <img src="./images/view.png"  class="cart2">
+                    <img src="./images/wishlist.png"  class="cart3">
+                </div>
+               <div class="card-product-details">
+                <div class="ratings-view">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3><a href="">Amazing Product</a></h3>
+                <span class="price-after-discount">RS 1222.0</span><del class="price-before-discount">RS 2000.0</del><span class="total-discount">(40% Off)</span>
+               </div>
+            </section>
+
+
+            <section class="card-view-page">
+                    <img src="./images/product2.png" height="200px" width="200px">
+                <div class="three-icon">
+                    <img src="./images/cart.png" class="cart1">
+                    <img src="./images/view.png"  class="cart2">
+                    <img src="./images/wishlist.png"  class="cart3">
+                </div>
+               <div class="card-product-details">
+                <div class="ratings-view">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3><a href="">Amazing Product</a></h3>
+                <span class="price-after-discount">RS 1222.0</span><del class="price-before-discount">RS 2000.0</del><span class="total-discount">(40% Off)</span>
+               </div>
+            </section>
+
+        </div>
+
+        </section>
+
+    </main>
+    <footer id="main-footer"></footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-
+    beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+    pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./header-footer.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+

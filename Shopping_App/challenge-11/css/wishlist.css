@@ -1,0 +1,126 @@
+.wishlist-section
+{
+    display: flex;
+    flex-direction: row;
+}
+.wishlist-section .profile-nav .side-section
+{
+ margin-left: 200px;
+}
+.wishlist-section .profile-nav .side-section .account-detail
+{
+    margin-top: 50px;
+}
+ .product-view-section
+{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.my-wishlist-item-qty-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.my-wishlist-item-qty-section .sort-by
+{
+    font-weight: bold;
+}
+.my-wishlist-item-qty-section .sort-by select
+{
+font-weight: bold;
+border: 2px solid orangered;
+outline: none;
+}
+.my-wishlist-item-qty-section .recently-added-div
+{
+   margin-right: 180px;
+}
+.my-wishlist-item-qty-section .recently-added-div i{
+    color: rgb(240, 83, 21);
+}
+.product-view-section .product-details
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-top: 5px;   
+}
+.product-details-placeholder
+{
+    display: flex;
+    flex-direction: column;
+}
+.product-details .product-image
+{
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+.product-view-section .product-details .product-image-with-details
+{
+display: flex;
+flex-direction: row;
+}
+.product-view-section .product-details .product-image-with-details .about-product
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.about-product .stars
+{
+    color: rgb(243, 161, 8);
+}
+.about-product .price-after-dis
+{
+    font-weight: bold;
+}
+.about-product .price-before-dis
+{
+    font-weight: bold;
+    color: gray;
+    margin-left: 10px;
+}
+.about-product .discount-rate
+{
+    font-weight: bold;
+    color: rgb(192, 69, 11);
+}
+
+
+
+.about-product select
+{
+width: 110px;
+font-size: small;
+font-weight: bold;
+border: 2px solid orangered;
+margin-top: 10px;
+outline: none;
+}
+.about-product .add-remove
+{
+   margin-top: 10px;
+}
+.about-product .add-remove .remove-wishlist
+{
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(155, 58, 20);
+}
+.about-product .add-remove button{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    font-size: small;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}

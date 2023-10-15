@@ -1,0 +1,184 @@
+
+
+
+        <!-- ========TOP-NAVIGATION======== -->
+
+        <nav id="top-navigation">
+            <div class="social-media-icons">
+                <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div><i class="fa fa-youtube" aria-hidden="true"></i></div>
+                <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            </div>
+            <div class="search-wrapper">
+                <input type="text" id="search" placeholder="Search Products & Brands" />
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="telephone-wrapper">
+                <div class="round-icons-div"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <a id="contact">+002 576888888</a>
+            </div>
+            <div>
+                <a class="top" href="">Sell On Company</a>
+            </div>
+            <div>
+                <a class="top" href="">Download App</a>
+            </div>
+            <div class="coutry-wrapper">
+                <div class="flag">
+                    <img id="flag" src="./images/india.png" alt="">
+                </div>
+                <select id="country" name="country" onclick="updateCountry()">
+                    <option  value="Usa">Usa</option>
+                    <option  value="French">French</option>
+                    <option  value="India">India</option>
+                </select>
+            </div>
+        </nav>
+
+
+
+        <!-- ========MAIN-NAVIGATION======== -->
+
+
+        <nav class="main-navigation" id="header-sticky">
+            <div class="container">
+                
+                    <div class="main-nav">
+                        <a href="./index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+                        <nav class="bar">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Categories</a></li>
+                                <li><a href="">Latest</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Pages</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+             </nav>
+                    </div>
+    <div class="main-nav2">
+        <div><i class="fa fa-heart-o"></i></div>
+        <div><i class="fa fa-shopping-cart"></i></div>
+
+
+<!-- ============Modal========== -->
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    SIGN IN
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <img src="./images/logo.png" alt="" height="80px" style="margin:auto ;">
+        </div>
+        <div class="modal-body signin_modal">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">LOGIN</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">CREATE ACCOUNT</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+
+                <!-- ======SIGN-IN PAGE======== -->
+
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email <span class="star">*</span></label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password <span  class="star">*</span></label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <i class="fa-solid fa-eye myeye"></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">SIGN IN</button>
+                        <button type="submit" class="btn btn-secondary">FORGOT YOUR PASSWORD</button>
+                        <hr class="line">
+                        <h6 class="or">OR LOGIN WITH</h6>
+                        <div class="social-icon">
+                            <button class="fb"><img src="./images/facebook.png" alt=""> FACEBOOK</button>
+                            <button class="twi"><img src="./images/twitter.png" alt="" class="twt-logo"></IMG> TWITTER</button>
+                            <button class="ggl"><img src="./images/google-logo-9817.png" alt="" class="ggl-logo"> GOOGLE</button>
+                        </div>
+                      </form>
+                </div>
+
+                <!-- =====CREATE ACCOUNT PAGE===== -->
+
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputUser2" class="form-label">Username <span class="star">*</span></label>
+                            <input type="text" class="form-control" id="exampleInputUser1" aria-describedby="textHelp">
+                          </div>
+
+                        <div class="mb-3">
+                          <label for="exampleInputEmail2" class="form-label">Email <span class="star">*</span></label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword2" class="form-label">Password <span  class="star">*</span></label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <i class="fa-solid fa-eye myeye"></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">CREATE ACCOUNT</button>
+                        <hr class="line">
+                        <h6 class="or">OR LOGIN WITH</h6>
+                        <div class="social-icon">
+                            <button class="fb"><img src="./images/facebook.png" alt=""> FACEBOOK</button>
+                            <button class="twi"><img src="./images/twitter.png" alt="" class="twt-logo"></IMG> TWITTER</button>
+                            <button class="ggl"><img src="./images/google-logo-9817.png" alt="" class="ggl-logo"> GOOGLE</button>
+                        </div>
+                      </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>                    
+</div>
+</div>
+</div>
+
+<!-- ====== Header Part ========= -->
+
+<script>
+    function updateCountry(){
+    let contacts = new Map()
+    contacts.set('Usa','+002 576888888')
+    contacts.set('French','+800 25525525')
+    contacts.set('India','+91 7683844093')
+
+    document.getElementById("country").addEventListener('change',function()
+    {
+        let country=this.value;
+        document.getElementById("contact").innerHTML=contacts.get(country)
+        // console.log(country);
+        document.getElementById("flag").src=`./images/${country}.png`
+    })
+
+}
+
+var scrollevent=document.getElementById("header-sticky");
+window.onscroll=function()
+{
+    if(window.pageYOffset > 100)
+    {
+        scrollevent.classList.add("sticky")
+    }
+    else{
+        scrollevent.classList.remove("sticky")
+    }
+}
+</script>

@@ -1,0 +1,209 @@
+.whole-cart-section
+{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 50px;
+}
+.my-cart
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 750px; 
+}
+.mycart-items
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.my-carts-heading
+{
+    font-size: larger;
+    color: orangered;
+    font-weight: bold;
+}
+.card-item-detail-section
+{
+    margin-top: 10px;
+    border: 2px solid rgb(194, 202, 194);
+    height: 250px;
+}
+.card-item-detail-top-section
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+.product-description
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.product-description p
+{
+color: rgb(153, 56, 56);
+font-size: small;
+font-weight: bold;
+}
+.incr-dec-button
+{
+    display: flex;
+    flex-direction: row;
+}
+.price-description
+{
+   text-align: right;   
+}
+.price-description p
+{
+    color: rgb(158, 56, 9);
+    font-size: small;
+    font-weight: bold;
+}
+.decrease-button
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    font-size: larger;
+    font-weight: bolder;
+}
+.increase-button
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    font-size: larger;
+    font-weight: bolder;
+}
+.value-button
+{
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    font-size: larger;
+    font-weight: bolder;
+}
+.remove-wishlist-button
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.slash
+{
+margin-left: 20px;
+}
+.remove-btn{
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(199, 57, 14);
+    border-radius: 2px;
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+}
+.add-wishlist-btn
+{
+margin-left: 20px;
+border: none;
+height: 30px;
+width: 150px;
+background-color: rgb(199, 57, 14);
+border-radius: 2px;
+font-size: small;
+font-weight: bold;
+color: #fff;
+}
+.order-place-section
+{
+    border: 2px solid rgb(194, 188, 188);
+    margin-left: 10px;
+    height: 420px;
+    width: 250px;
+    margin-top: 40px;
+    
+}
+.apply-coupons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.apply-btn
+{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    width: 80px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #fff;
+    color: orangered;
+}
+.apply-btn:hover{
+    background-color: orangered;
+    border: 1px solid white;
+    color: white;
+}
+.tag
+{
+    font-size: 20px;
+    
+}
+.apply-coupons-name
+{
+    font-size: small;
+    font-weight: bold;
+}
+.all-price-details
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.all-price-details p
+{
+ font-size: small;
+ font-weight: bold;
+ color: gray;
+}
+#apply-cpn
+{
+    color: orangered;
+    font-size: small;
+    font-weight: bold;
+}
+#free-delivery
+{
+    color: green;
+
+}
+#free-delivery del
+{
+  color: rgb(146, 140, 140);
+}
+
+.place-order
+{
+    width: 90%;
+    height: 30px;
+    /* margin-top: 10px; */
+    border: none;
+    background-color:orangered;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: bold;
+}

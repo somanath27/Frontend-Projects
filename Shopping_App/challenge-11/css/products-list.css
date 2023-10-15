@@ -1,0 +1,210 @@
+.small-navbar
+{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(216, 208, 208);
+    margin-top: 50px;
+}
+.itemlist
+{
+    margin-left: 100px;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.itemlist li{
+    margin-top: 10px;
+}
+.fansitem
+{
+    font-weight: bolder;
+}
+
+/* =====First Section======= */
+
+.top-section
+{
+
+    display: flex;
+    flex-direction: row;
+    /* height: 2100px; */
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    margin-right:10% ;
+    margin-top: 20px;
+
+    
+}
+.first-section
+{
+    /* height: 900px; */
+    width: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.second-section
+{
+    /* height: 2100px; */
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.second-section .sorting-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second-section .sorting-section .sort-by-selection
+{
+    width: 200px;
+}
+
+.second-section .sorting-section .select-items
+{
+    border: 2px solid orangered;
+    font-weight: bolder;
+}
+.categories
+{
+    margin-top: 30px;
+}
+.check-buttons
+{
+    margin-top: 10px;
+}
+.check-buttons .form-check
+{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.check-buttons .form-check-input:checked
+{
+    background-color: orangered;
+    border-color: orangered;
+}
+
+
+.dress-section
+{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+    margin: 20px;
+}
+
+.card-view-page{
+    height: 300px;
+    width: 220px;
+    border: 2px solid rgb(143, 143, 131);
+    border-radius: 5px;
+}
+ .card-view-page:hover 
+ {
+    box-shadow: 2px 2px 5px 5px  rgba(26, 1, 1, 0.9);
+    opacity: 0.8;
+    transform: scale(1.1);
+ }
+ .card-view-page >img{
+    margin-left: 7px;
+ }
+
+
+
+.dress-section .card-view-page .three-icon 
+{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    visibility: hidden;
+    margin-left: 25px;
+}
+
+.cart1:hover{
+    content: url("/images/cart-new.png");
+}
+.cart2:hover
+{
+    content: url("/images/view-new.png");
+}
+.cart3:hover
+{
+    content: url("/images/wishlist-new.png");
+}
+
+.card-view-page:hover .three-icon
+{
+    visibility: visible;
+}
+.card-product-details h6
+{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.price-after-discount
+{
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.price-before-discount
+{
+    font-weight: lighter;
+}
+.total-discount
+{
+    color: rgb(255, 91, 31);
+    font-weight: bolder;
+}
+.card-product-details .stars
+{
+    text-align: center;
+}
+.card-product-details .stars i{
+    color: rgb(231, 199, 16);
+}
+#middle-heading
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.third-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+.third-section .footer-part
+{
+    height:240px ;
+    width: 25%;
+    border: 1px solid rgb(214, 210, 210);
+    text-align: center;
+    cursor: pointer;
+}
+.third-section .footer-part:hover img
+{
+    scale: calc(1.2);
+}
+.third-section .footer-part img{
+    margin-top: 30px;
+}
+.third-section .footer-part h6{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.third-section .footer-part p{
+    color: gray;
+}
