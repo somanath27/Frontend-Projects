@@ -1,0 +1,76 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html body{
+    background-color: rgb(18, 18, 226);
+}
+.container-box
+{
+    background-color: rgb(27, 27, 80);
+    border: 1px solid rgb(9, 9, 31);
+    box-shadow: 2px 2px 5px 2px rgb(132, 104, 173);
+    height: 450px;
+    width: 400px;
+    margin: auto;
+     margin-top: 100px;
+}
+.container-box h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.result-container
+{
+    background-color: rgb(5, 5, 36);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    margin-top: 30px;
+    color: antiquewhite;
+    position: relative;
+    height: 40px;
+}
+#result
+{
+    color: rgb(226, 174, 106);
+    font-size: large;
+    font-weight: bold;
+}
+#clipboard
+{
+    color: beige;
+    background-color: rgb(18, 72, 134);
+    position: absolute;
+    right: 20px;
+}
+
+.settings
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.setting
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+}
+
+#generate
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
+    font-size: larger;
+    font-weight: bold;
+    background-color: blue;
+}
